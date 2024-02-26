@@ -1,0 +1,130 @@
+*{
+    font-family: 'new';
+    /* font-weight: 800; */
+    margin: 0;
+    padding: 0;
+    border-box:none;
+}
+@font-face {
+    font-family: 'new';
+    src: url(January\ Font.ttf);
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+#calculator{
+    background-image: url(calc.png);
+    background-size: 63%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+}
+.display{
+    position: relative;
+    top: 125px;
+    left: 735px;
+    background-color: rgb(234,234,238);
+    overflow: scroll;
+    width: 448px;
+    height: 98px;
+    font-size: 110px;
+    border-radius: 10px;
+    color: rgb(26,21,48);
+    border: 2px rgb(26,21,48) solid;
+    letter-spacing: 8px;
+    text-align: end;
+    text-transform: 5%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.button{
+    position: absolute;
+    text-align: center;
+    height: 68px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 40px;
+    /* border-radius: 50px; */
+    border: none;
+    color: rgb(72,61,89);
+}
+.button:active{
+    color: rgb(113, 113, 113);
+    font-size: 25px;
+}
+.no-1{
+    top: 368px;
+    left: 660px;
+}
+.no-2{
+    top: 368px;
+    left: 765px;
+}
+.no-3{
+    top: 368px;
+    left: 870px;
+}
+.cut{
+    border-radius: 20px;
+    background-color: rgb(192,192,200);
+    top: 368px;
+    left: 985px;
+}
+.no-4{
+    top: 465px;
+    left: 660px;
+}
+.no-5{
+    top: 465px;
+    left: 765px;   
+}
+.no-6{
+    top: 465px;
+    left: 870px;
+}
+.dot{
+    top: 465px;
+    left: 986px;
+}
+.no-7{
+    top: 562px;
+    left: 660px;
+}
+.no-8{
+    top: 562px;
+    left: 765px;
+}
+.no-9{
+    top: 562px;
+    left: 870px;
+}
+.no-0{
+    top: 562px;
+    left: 985px;
+}
+.add{
+    top: 368px;
+    left: 1090px;
+}
+.sub{
+    top: 466px;
+    left: 1090px;
+}
+.multi{
+    top: 562px;
+    left: 1091px;   
+}
+.divide{
+    top: 369px;
+    left: 1198px;
+}
+.C{
+    top: 463px;
+    left: 1197px;
+    background-color: rgb(192,192,200);
+}
+.equal{
+    top: 560px;
+    left: 1198px;
+}
